@@ -36,6 +36,7 @@ doc:
   - id: keywords
   - id: doi
   - id: venue
+  - id: margin
 options:
   - id: logo
     type: file
