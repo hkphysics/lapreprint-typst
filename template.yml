@@ -36,7 +36,6 @@ doc:
   - id: keywords
   - id: doi
   - id: venue
-  - id: margin
 options:
   - id: logo
     type: file
@@ -75,3 +74,6 @@ parts:
     description: >
       Data availability statement printed in the margin
     max_words: 500
+  - id: margin
+    description: >
+      Margin data

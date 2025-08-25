@@ -85,7 +85,7 @@
   kind: "[-options.kind-]",
 [# endif #]
   margin: (
-[# for margin in doc.margin #]
+[# for margin in parts.margin #]
 (
   title: [-margin.title-],
   content: [
