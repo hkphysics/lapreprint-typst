@@ -239,6 +239,6 @@
   let consolidated = consolidateAffiliations(out.authors, out.affiliations)
   out.authors = consolidated.authors
   out.affiliations = consolidated.affiliations
-
+  out.margin = raw.margin
   return out
 }
