@@ -85,6 +85,14 @@
   kind: "[-options.kind-]",
 [# endif #]
   margin: (
+[# for margin in doc.margin #]
+(
+  title: [-margin.title-],
+  content: [
+[-margin.content-]
+  ],
+),
+[# endfor #]
 [# if parts.acknowledgements #]
     (
       title: "Acknowledgements",
