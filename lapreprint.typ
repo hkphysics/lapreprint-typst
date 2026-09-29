@@ -33,7 +33,7 @@
   // Content to put on the margin of the first page
   // Should be a list of dicts with `title` and `content`
   margin: (),
-  paper-size: "us-letter",
+  paper-size: "paper_size",
   // A color for the theme of the document
   theme: blue.darken(30%),
   // Date published, for example, when you publish your preprint to an archive server.
